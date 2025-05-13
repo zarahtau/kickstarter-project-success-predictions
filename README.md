@@ -11,13 +11,7 @@ This dataset contains data about failed, canceled, and successful kickstarter ca
 
 ## Model Guide
 
-Modeled contexts are located in /src/models.
-
-- **"...with_other_leakage.ipynb"** The spotlight feature is removed but all other forms of leakage features remain.
-- **"...with_spotlight_leakage.ipynb** The spotlight leakage feature is present.
-- **"...feature_rank.ipynb** A stable decision tree modeling context with feature ranking and additional graphs.
-- **"...inconclusive_kickstarters_eliminated.ipynb"** Possibly eliminates another form of bias in the original dataset. Omits inconclusive kickstarters marked as failures for reasons of cancellation, suspension, or pending.
-- **"classification_tree.ipynb"** A stable decision tree modeling context without feature ranking or additional graphs.
+Modeled contexts are located in /src/models. To test varying conditions in the data, modeling context notebooks are created for each condition. The file names are created appropriately to describe the condition.
 
 ## Team Members
 - Harini Anand
